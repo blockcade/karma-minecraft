@@ -6,3 +6,6 @@ authors:
   - AspyTheAussie
 website: https://github.com/blockcade/karma-minecraft
 main: net.blockcade.karma.Minecraft.Karma
+
+softdepend:
+  - LiteBans
