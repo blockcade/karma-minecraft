@@ -10,19 +10,19 @@ public class PardonEvent extends Event {
 
     public static HandlerList handlerList = new HandlerList();
 
-    private UUID victom;
+    private UUID victim;
     private UUID administer;
 
     private String reason;
 
-    public PardonEvent(UUID victom, UUID administer, String reason) {
-        this.victom=victom;
+    public PardonEvent(UUID victim, UUID administer, String reason) {
+        this.victim=victim;
         this.administer=administer;
         this.reason=reason;
     }
 
-    public UUID getVictom() {
-        return victom;
+    public UUID getVictim() {
+        return victim;
     }
 
     public UUID getAdminister() {

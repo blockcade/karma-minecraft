@@ -4,7 +4,6 @@ import litebans.api.Entry;
 import litebans.api.Events;
 import net.blockcade.karma.Minecraft.hooks.HookHandler;
 import org.bukkit.Bukkit;
-import org.bukkit.event.Listener;
 
 import java.util.UUID;
 

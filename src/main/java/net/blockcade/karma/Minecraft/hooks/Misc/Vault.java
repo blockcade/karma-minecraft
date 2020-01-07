@@ -6,8 +6,9 @@ import org.bukkit.Bukkit;
 public class Vault extends HookHandler {
 
     public Vault() {
-
         super(Bukkit.getPluginManager().getPlugin("Vault"));
+
+
     }
 
 }
